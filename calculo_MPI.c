@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 	}
 	for (int i = inicio_thread; i <= inicio_thread + soma_local; i++)
 	{ 
-		if(i > 1000000)
+		if(i > 100000000)
     {
 			break;
 		}
